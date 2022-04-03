@@ -1,9 +1,14 @@
 .gradle
 /build/
-
+/run/
 # Ignore Gradle GUI config
 gradle-app.setting
 
+
+# 
+runClient.launch
+runData.launch
+runServer.launch
 # Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
 !gradle-wrapper.jar
 
