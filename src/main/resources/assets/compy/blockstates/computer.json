@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "": {"model": "compy:block/computer"}
+    }
+}

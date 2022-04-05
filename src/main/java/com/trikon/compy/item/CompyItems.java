@@ -14,7 +14,7 @@ public class CompyItems {
 
 	public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Compy.MODID);
 	
-	public static final RegistryObject<Item> TABLET = ITEMS.register("tablet", () -> new Item(new Item.Properties()));
+	public static final RegistryObject<Item> TABLET = ITEMS.register("tablet", () -> new Item(new Item.Properties().tab(CompyTab.COMPY_TAB)));
 	
 	
 	

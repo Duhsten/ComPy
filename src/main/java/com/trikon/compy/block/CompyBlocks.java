@@ -14,6 +14,7 @@ import java.util.function.Supplier;
 
 import com.trikon.compy.*;
 import com.trikon.compy.item.CompyItems;
+import com.trikon.compy.item.CompyTab;
 public class CompyBlocks {
 
 	public static final DeferredRegister<Block> BLOCKS
@@ -28,7 +29,7 @@ public class CompyBlocks {
 	
 	private static <T extends Block> void registerBlockItem(String name, RegistryObject<T> block) {
 		CompyItems.ITEMS.register(name, () -> new BlockItem(block.get(),
-					new Item.Properties()));
+					new Item.Properties().tab(CompyTab.COMPY_TAB)));
 		
 	}
 	public static void register(IEventBus eventBus) {

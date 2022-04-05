@@ -1,0 +1,9 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "top": "compy:block/computer_top",
+        "bottom": "compy:block/computer_bottom",
+        "side": "compy:block/computer_side",
+        "front": "compy:block/computer"
+    }
+ }
