@@ -1,9 +1,11 @@
 {
     "parent": "block/cube_all",
     "textures": {
-        "top": "compy:block/computer_top",
-        "bottom": "compy:block/computer_bottom",
-        "side": "compy:block/computer_side",
-        "front": "compy:block/computer"
-    }
+        "up": "compy:block/computer_top",
+        "down": "compy:block/computer_bottom",
+        "east": "compy:block/computer_side",
+        "west": "compy:block/computer_side",
+        "south": "compy:block/computer_side",
+        "north": "compy:block/computer"
+    } 
  }
